@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import environ
-
+import os
 env = environ.Env()
 environ.Env.read_env()
 
@@ -55,7 +55,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'todoSimple.urls'
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfile')
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
