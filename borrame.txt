@@ -1,0 +1,6 @@
+1- poner variebles de entorno
+2- subiur a heroku
+3- colocar url nueva
+4- crear requerements.txt
+5- quitar debug true a los otros porjectos 
+
